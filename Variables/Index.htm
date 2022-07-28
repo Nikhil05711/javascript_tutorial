@@ -1,0 +1,42 @@
+//variable declaration accoding to ES5 model
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+    <script>
+        function result() {
+            var a = 10;
+            var b = 35;
+            var c = 23;
+            var res = a + b + c;
+            document.write("<h1>The sum of the three number is : </h1>", res)
+        }
+
+        function date() {
+            var today = new Date();
+            var time = today;
+            document.write("<h1>Today date is : </h1>", time)
+        }
+
+        function selectRandom() {
+            var myName = "Nikhil"
+            window.alert("The random selection is: " + myName)
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Declaration and initialization in javascript</h1>
+    <button type="button" onclick="result()">Result</button>
+    <h1> Current time is</h1>
+    <button type="button" onclick="date()">Submit</button>
+    <button type="button" onclick="selectRandom()">Click</button>
+
+</body>
+
+</html>

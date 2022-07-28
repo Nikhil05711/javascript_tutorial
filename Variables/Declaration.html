@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<Head>
+    <title>global_and_local_variable</title>
+</Head>
+
+<body>
+    <script>
+        let num = 1000;
+        function test() {
+            num = 20000;
+            console.log("The num is " + num)
+        }
+
+        console.log("num " + num)
+        test()
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+##################################---Styling---##################################
+
+There are 4 types of styling in javascript we have:
+1)Inline
+2)Internal
+3)External
+4)Multiple External Scripts
+
+Inline javascript: We use inline js in the body tag for a particular part.
+Internal javascript: We use internal js with style tag in head part.
+External javascript: We use external js by importing js file in head or body by using src tag.
+Multiple_External javascript: We use this js by importing multiple js files in head or body bhy using src tag.

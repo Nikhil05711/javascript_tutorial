@@ -1,0 +1,32 @@
+////////////////****************javascript type conversion **************////////////////////
+
+There are different type of type casting in javascript: 
+1) Converting Strings to Numbers
+2) Converting Numbers to Strings
+3) Converting Dates to Numbers
+4) Converting Numbers to Dates
+5) Converting Booleans to Numbers
+6) Converting Numbers to Booleans
+
+converting String to Numbers: 
+
+                            a) Number("3.14") ===>>> 3.14
+                            b) Number("") ===>>> 0
+                            c) Number(" ") ===>>> 0
+                            d) Number("8 5") ===>>> NAN
+
+
+The Number Method: 
+
+                 a) Number()  ===>>>  returns a number converted from its argument
+                 b) parseFloat()  ===>>>  parses a string and returns a floating point to its Number
+                 c) parseInt()  ===>>> parses a string and returns an integar 
+
+    
+The Unary Operator: 
+
+                 a) let x = "abc"   /// String
+                    let y = +x      /// Number
+
+
+                            

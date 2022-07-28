@@ -1,0 +1,14 @@
+##################################---Variable---##################################
+
+Variable is something that stores the value or a container for values in a program
+
+According to ES6 Model: var keyword is converted into let or const.
+
+Notes:
+
+1. Identifier can not be keyword and dont contain any number or alphabet or any
+   symbol except underscore(\_).
+2. Variables can not begin with a number.
+
+Type Syntax:
+var variable_name -------------->>>>>>>>>>> let variable_name or const variable_name
