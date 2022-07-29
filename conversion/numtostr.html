@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number to String Conversion</title>
+</head>
+
+<body>
+
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <p id="demo5"></p>
+    <p id="demo6"></p>
+    <p id="demo7"></p>
+    <p id="demo8"></p>
+
+
+    <script>
+        let a = 100;
+        document.getElementById("demo").innerHTML = String(a) + "<br>" + String(123) + "<br>" + String(100 + 23)
+
+        let b = 234;
+        document.getElementById("demo1").innerHTML = b.toString() + "<br>" + (234).toString() + "<br>" + (200 + 34).toString()
+
+        let c = 8.554;
+        document.getElementById("demo2").innerHTML = c.toExponential() + "<br>" + c.toExponential(1);
+
+        let d = 13.4353;
+        document.getElementById("demo3").innerHTML = d.toFixed(0) + "<br>" + d.toFixed(3)
+
+        let e = 6.851;
+        document.getElementById("demo4").innerHTML = e.toPrecision(1) + "<br>" + e.toPrecision(2)
+
+        let f = 8.254;
+        document.getElementById("demo5").innerHTML = f.valueOf() + "<br>" + (123).valueOf() + "<br>" + (15 + 3).valueOf()
+
+        // The Number Method
+        document.getElementById("demo6").innerHTML = Number(true) + "<br>" + Number(false) + "<br>" + Number(10) + "<br>" + Number("10.2")
+
+        // Convert Date into block.timestamp in millisecond
+        let g = (new Date("2022-10-21"))
+        document.getElementById("demo7").innerHTML = Number(g)
+
+        // parseInt method() and parseFloat Method both are same
+        document.getElementById("demo8").innerHTML = parseInt("-10") + "<br>" + parseInt("_10") + "<br>" + parseInt("10.00") + "<br>" + parseInt("nIKhil")
+    </script>
+
+</body>
+
+</html>

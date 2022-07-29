@@ -1,0 +1,51 @@
+.formStyle {
+  width: 350px;
+  height: 458px;
+  margin: auto;
+  border: 6px solid rgb(7, 26, 34);
+  border-radius: 19px;
+  padding: 10px;
+  position: relative;
+  top: 16px;
+}
+
+#abc {
+  width: 295px;
+  border: 6px solid rgb(117, 58, 58);
+  border-radius: 11px;
+  padding: 22px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  padding: 13px;
+  background-color: rgb(165, 168, 152);
+  color: rgb(73, 46, 46);
+}
+
+::placeholder {
+  font-size: 35px;
+  text-align: center;
+  position: relative;
+  top: 8px;
+}
+
+input {
+  width: 65px;
+  background-color: rgb(119 197 119);
+  color: #403232;
+  border: 3px solid rgb(73 46 46);
+  border-radius: 6px;
+  padding: 10px;
+  margin: 9px;
+  font-size: 14px;
+}
+
+#clear {
+  width: 333px;
+  border: 3px solid gray;
+  border-radius: 3px;
+  padding: 20px;
+  background-color: red;
+}

@@ -1,32 +1,67 @@
-////////////////****************javascript type conversion **************////////////////////
+////////////////**\*\***\*\*\*\***\*\***javascript type conversion **\*\***\*\***\*\***////////////////////
 
-There are different type of type casting in javascript: 
-1) Converting Strings to Numbers
-2) Converting Numbers to Strings
-3) Converting Dates to Numbers
-4) Converting Numbers to Dates
-5) Converting Booleans to Numbers
-6) Converting Numbers to Booleans
+There are different type of type casting in javascript:
 
-converting String to Numbers: 
+1. Converting Strings to Numbers
+2. Converting Numbers to Strings
+3. Converting Dates to Numbers
+4. Converting Numbers to Dates
+5. Converting Booleans to Numbers
+6. Converting Numbers to Booleans
+
+converting String to Numbers:
 
                             a) Number("3.14") ===>>> 3.14
                             b) Number("") ===>>> 0
                             c) Number(" ") ===>>> 0
                             d) Number("8 5") ===>>> NAN
 
-
-The Number Method: 
+The Number Method:
 
                  a) Number()  ===>>>  returns a number converted from its argument
                  b) parseFloat()  ===>>>  parses a string and returns a floating point to its Number
-                 c) parseInt()  ===>>> parses a string and returns an integar 
+                 c) parseInt()  ===>>> parses a string and returns an integar
 
-    
-The Unary Operator: 
+The Unary Operator:
 
                  a) let x = "abc"   /// String
                     let y = +x      /// Number
 
+converting Numbers to String:
 
-                            
+                            a) The global method string() can convert number to string
+                            b) can be used any type of numbers, literals, variables or expression
+
+ways to convert number into string:
+
+                                 a) Number ===>>> String(number)
+                                 b) Number ===>>> (Number).toString()
+                                    returns a number, to the string itself
+                                 c) Number ===>>> (Number).toExponential()
+                                    returns a string, with a number rounded and written using exponential notation
+                                 d) Number ===>>> (Number).toFixed()
+                                    returns a string, with the number written with a specified number of decimals
+                                 e) Number ===>>> (Number).toPrecision()
+                                    returns a string, with a number written with a specified length
+                                 f) Number ===>>> Number
+                                    returns a number as a number
+
+Converting Variables to Numbers:
+These methods are not number methods, but global JavaScript methods
+There are 3 main methods to convert variables to Numbers, such as:
+
+                                 a)The Number Method()
+                                 b)parseInt Method()
+                                 c)parseFloat Method()
+
+The Number Method:
+This method can be used to convert JavaScript variables to numbers as well as to convert date into number
+
+parseInt Method:
+This method parses a string and returns a whole number. Spaces are allowed. Only the first number is returned.
+
+parseFloat Method:
+This method parses a string and returns a number. Spaces are allowed. Only the first number is returned.
+
+Difference between parseInt and parseFloat method:
+parseInt Method parse for whole number not for decimal values whereas parseFloat parses for only a number
